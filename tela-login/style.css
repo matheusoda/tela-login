@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background:
+    linear-gradient(179.75deg, rgba(35, 37, 63, 0.93) 0.35%, rgba(255, 255, 255, 0.438) 697.23%), #23253F;
+
+}
+
+body{
+  margin: 0;
+  height: 100%;
+}
+
+input {
+  width: 251px;
+  height: 38px;
+  border-radius: 4px;
+  background: #3B3C53;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin: 2px;
+}
+
+p {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+footer {
+  height: 19px;
+  color: #8D8D8D;
+}
+
+.flex-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* background: linear-gradient(179.75deg, rgba(35, 37, 63, 0.93) 0.35%, rgba(255, 255, 255, 0) 697.23%), #23253F; */
+  justify-content: center;
+  align-items: center;
+}
+
+.quadrado {
+  background-color: #23253F;
+  color: white;
+  text-align: center;
+  padding: 6%;
+  border-radius: 2%;
+  background: #23253F;
+  box-shadow: 0px 4px 20px rgba(35, 37, 63, 0.5);
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  
+}
+
+.button {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  width: 251px;
+  height: 37px;
+  border-radius: 49px;
+  font-weight: 600;
+  color: white;
+  font-size: 14px;
+  line-height: 16px;
+  border-color: transparent;
+}
+
+.button-singin {
+  background: #6DC6C1;
+  margin-top: 4%;
+
+}
+
+.button-singup {
+  background: #6280E5;
+}
